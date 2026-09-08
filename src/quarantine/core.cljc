@@ -13,7 +13,7 @@
 
   Extracted from gftdcojp/ai-gftd-misogi, where it was verified by a real
   filesystem round trip asserting mode and mtime survive."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def ^:const manifest-schema "quarantine.manifest.v1")
 (def ^:const receipt-schema "quarantine.receipt.v1")
