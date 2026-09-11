@@ -67,7 +67,7 @@ without a filesystem. `host` does the moving.
 
 ```sh
 npm test        # 26 tests / 76 assertions — real filesystem round trips
-clj -M:test     # the .cljc core on the JVM
+kbb -M:test     # the .cljc core on the JVM
 ```
 
 The round-trip tests move actual files in a temp tree and assert mode and mtime

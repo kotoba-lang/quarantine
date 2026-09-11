@@ -5,6 +5,6 @@
   "description": "Reversible removal — move to a vault, restore exactly, purge only under a retention floor.",
   "type": "module",
   "scripts": {
-    "test": "nbb --classpath src:test -m quarantine.test-runner"
+    "test": "kbb --backend sci --classpath src:test -m quarantine.test-runner"
   }
 }
