@@ -56,8 +56,8 @@ tell.
 ## Layout
 
 ```
-src/quarantine/core.cljc   pure: manifest, retention arithmetic, purge gate, receipts
-src/quarantine/host.cljs   nbb: move / restore / purge / gc / list, ledger append
+src/quarantine/core.cljk   pure: manifest, retention arithmetic, purge gate, receipts
+src/quarantine/host.cljk   nbb: move / restore / purge / gc / list, ledger append
 ```
 
 `core` performs no IO, so the rules about what may be destroyed are testable
