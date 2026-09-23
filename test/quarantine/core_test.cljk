@@ -1,7 +1,7 @@
 (ns quarantine.core-test
   "The purge gate is the only place irreversibility is decided, so it is tested
   against every way a caller could try to reach destruction."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [quarantine.core :as q]))
 
 (def ^:const now 1753500000000)

@@ -8,7 +8,7 @@
   (:require ["node:fs" :as fs]
             ["node:os" :as os]
             ["node:path" :as path]
-            [clojure.test :refer [deftest is testing use-fixtures]]
+            [kotoba.test :refer [deftest is testing use-fixtures]]
             [quarantine.core :as q]
             [quarantine.host :as h]))
 
