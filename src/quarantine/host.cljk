@@ -11,7 +11,7 @@
   (:require ["node:crypto" :as crypto]
             ["node:fs" :as fs]
             ["node:path" :as path]
-            [clojure.edn :as edn]
+            [kotoba.lang.edn :as edn]
             [quarantine.core :as q]))
 
 ;; ---------------------------------------------------------------------------
